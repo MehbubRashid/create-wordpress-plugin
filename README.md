@@ -20,4 +20,5 @@
 
   * `npm install`
   * Change the proxy URL in the `gulpfile.js` to your site URL.
-  * Start Gulp by commanding `gulp` in the terminal.
+  * Start Gulp by running `gulp` in the terminal.
+  * For creating a production build (plugin zip file with minified javascripts,css) run `gulp prod`
