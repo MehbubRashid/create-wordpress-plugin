@@ -1,4 +1,4 @@
-# create-react-wp
+# create-wordpress-plugin
 
   NPM CLI tool for generating a WordPress Plugin in the current folder.
 
