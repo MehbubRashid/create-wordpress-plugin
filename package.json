@@ -1,0 +1,29 @@
+{
+	"name": "create-wordpress-plugin",
+	"version": "1.0.0",
+	"description": "NPM CLI tool for generating a WordPress Plugin in the current folder.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MehbubRashid/create-wordpress-plugin"
+	},
+	"bin": {
+		"create-wordpress-plugin": "./index.js"
+	},
+	"keywords": [
+		"react",
+		"wordpress",
+		"wp",
+		"react.js",
+		"react js",
+		"plugin",
+		"theme"
+	],
+	"author": "Mehbub Rashid",
+	"license": "ISC",
+	"dependencies": {
+		"download-github-repo": "^0.1.4",
+		"fs-extra": "^10.1.0",
+		"npm": "^6.14.10",
+		"replace": "^1.2.1"
+	}
+}
