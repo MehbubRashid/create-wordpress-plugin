@@ -11,8 +11,9 @@ const rl = readline.createInterface({
 function init() {
     console.log('\x1b[36m%s\x1b[0m', '========================================');
     console.log('\x1b[32m%s\x1b[0m', '|                                      |');
-    console.log('\x1b[32m%s\x1b[0m', '|       create-wordpress-plugin        |');
-    console.log('\x1b[32m%s\x1b[0m', '|        Author: Mehbub Rashid         |');
+    console.log('\x1b[32m%s\x1b[0m', '|        create-wordpress-plugin       |');
+    console.log('\x1b[32m%s\x1b[0m', '|         Author: Mehbub Rashid        |');
+    console.log('\x1b[32m%s\x1b[0m', '|    https://github.com/MehbubRashid   |');
     console.log('\x1b[32m%s\x1b[0m', '|                                      |');
     console.log('\x1b[36m%s\x1b[0m', '========================================');
 
@@ -233,7 +234,7 @@ function init() {
                                             silent: true
                                         });
 
-                                        console.log('\x1b[32m%s\x1b[0m', `Plugin Created! Enjoy`);
+                                        console.log('\x1b[32m%s\x1b[0m', `Plugin Created! To understand the structure & usage, please visit https://github.com/MehbubRashid/create-wordpress-plugin/blob/master/README.md`);
                                     });
                                 });
                             });
